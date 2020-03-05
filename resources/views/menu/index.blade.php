@@ -18,16 +18,13 @@
             <div class="background"></div>
             <div class="content">
               <div class="food-title">
-                Starters
+                PIZZA SPECIALTIES
               </div>
               <p class="food-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
-                architecto
-                officia aspernatur nulla iusto delectus doloremque possimus recusandae, reiciendis aliquam vel voluptas
-                repellendus natus nihil?
+                The following recommended Savage Pizza Combos are tried and true favorites from our kitchen. Substitutions are extra.
               </p>
               <div class="food-image">
-                <img src="/img/CHIPS.png">
+                <img src="img/savage-pics/kissclipart-pizza-marinara-png-c.png">
               </div>
             </div>
 
@@ -36,16 +33,13 @@
             <div class="background"></div>
             <div class="content">
               <div class="food-title">
-                Burgers
+                BUILD YOUR OWN
               </div>
               <p class="food-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
-                architecto
-                officia aspernatur nulla iusto delectus doloremque possimus recusandae, reiciendis aliquam vel voluptas
-                repellendus natus nihil?
+                red tomato sauce * garlic tomato sauce * garlic white sauce * salsa fresca with cilantro * red wine marinara * spicy red pepper sauce (additional charge)* Fox Bros. Barbeque Sauce (additional charge)
               </p>
               <div class="food-image">
-                <img src="/img/hamburger-and-fries-png-4.png">
+                <img src="img/savage-pics/calzoni-png-7.png">
               </div>
             </div>
 
@@ -54,16 +48,13 @@
             <div class="background"></div>
             <div class="content">
               <div class="food-title">
-                Entrees
+                SAUCES & CRUST
               </div>
               <p class="food-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
-                architecto
-                officia aspernatur nulla iusto delectus doloremque possimus recusandae, reiciendis aliquam vel voluptas
-                repellendus natus nihil?
+                Our crust is a thin, New York-style crust, available in traditional or honey wheat. 10” (small) gluten-free crust 2.00 extra.
               </p>
               <div class="food-image">
-                <img src="/img/342-3422633_pork-entrees-steak-pork-png.png">
+                <img src="img/savage-pics/pizza_ranch.png">
               </div>
             </div>
 
@@ -72,16 +63,13 @@
             <div class="background"></div>
             <div class="content">
               <div class="food-title">
-                Sides
+                LASAGNA
               </div>
               <p class="food-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
-                architecto
-                officia aspernatur nulla iusto delectus doloremque possimus recusandae, reiciendis aliquam vel voluptas
-                repellendus natus nihil?
+                Fresh lasagna noodles layered with a special red wine tomato sauce with a touch of serrano peppers, spinach and ricotta cheese and topped with lots of parmesan and mozzarella.  Served with garlic bread and salad with your choice of dressing.
               </p>
               <div class="food-image">
-                <img src="/img/Download-Salad-Transparent-PNG.png">
+                <img src="img/savage-pics/lasagna-png-transpar.png">
               </div>
             </div>
 
@@ -90,17 +78,14 @@
             <div class="background"></div>
             <div class="content">
               <div class="food-title">
-                Deserts
+                SUBS
               </div>
               <p class="food-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi omnis iste ab deleniti cupiditate
-                architecto
-                officia aspernatur nulla iusto delectus doloremque possimus recusandae, reiciendis aliquam vel voluptas
-                repellendus natus nihil?
+                 Your choice of regular or whole wheat roll. All Subs served with choice of Regular, Salt & Vinegar, or BBQ Chips.
               </p>
               <div class="food-image">
                 <img
-                  src="/img/Download-Cupcake-PNG-Transparent-Image-420x190.png">
+                  src="img/savage-pics/meatball1.png">
               </div>
             </div>
           </div>
