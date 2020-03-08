@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
-
+ <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    
         <!-- Fonts -->
         <link rel="stylesheet" href="/css/app.css">
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -13,15 +15,18 @@
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     </head>
     <body>
-      <section id="app-layout">
-    @include('includes.side-menu')
+    <section id="app-layout">
+   @include('includes.side-menu')
     <div class="welcome-jumbo">
       <div class="status">NEW</div>
       <h1>Savage Pizza</h1>
-      <img src="/img/savage-pics/photo0jpg.png" class="store_front">
+      <img src="img/savage-pics/store_front.png" class="burger-fries">
     </div>
   </section>
-    @yield('content')
-  
+   @yield('content')
+ 
     </body>
 </html>
+
+
+

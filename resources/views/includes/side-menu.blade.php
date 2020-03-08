@@ -2,28 +2,28 @@
     <a href="/" class="logo">
     <img src="/img/savage-pics/savage-logo.gif">
     </a>
-    <div class="menu">
-    <div class="menu-title">
-        Menu
-    </div>
-    <ul class="links">
-        <li>
-        <a href="/menu">Food</a>
-        </li>
-        <li>
-        <a href="/about">About Us</a>
-        </li>
-        <li>
-        <a href="/waitlist">Waitlist</a>
-        </li>
-        <li>
-        <a href="/offers">Offers</a>
-        </li>
-        <li>
-        <a href="/giftcards">Giftcards</a>
-        </li>
-    </ul>
-    </div>
+   <div class="menu">
+        <div class="menu-title">
+          Menu
+        </div>
+        <ul class="links">
+         <li>
+            <a href="/menu">Food</a>
+          </li>
+          <li>
+            <a href="/about">About us</a>
+          </li>
+          <li>
+            <a href="/reservations">Reservations</a>
+          </li>
+          <li>
+            <a href="/offers">Offers</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     <div class="social-icons">
     <a href="#">
         <i class="fa fa-facebook" aria-hidden="true"></i>
