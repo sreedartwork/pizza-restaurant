@@ -34,6 +34,7 @@ class FoodItemsController extends Controller
         request()->validate([
             'title' => ['required', 'string', 'max:255'],
             'description' => ['required', 'string'],
+            // 'size' => ['required', 'string'],
             'price' => ['required', 'string'],
             'category_id' => ['required', 'integer']
 
@@ -41,6 +42,7 @@ class FoodItemsController extends Controller
         $item = new FoodItem();
         $item->title = request('title');
         $item->description = request('description');
+        // $item->descritpion = request('size');
         $item->image_url = request('image_url');
         $item->price = request('price');
         $item->category_id= request('category_id');
@@ -62,6 +64,7 @@ class FoodItemsController extends Controller
         request()->validate([
             'title' => ['required', 'string', 'max:255'],
             'description' => ['required', 'string'],
+            // 'size' => ['required', 'string'],
             'price' => ['required'],
             'category_id' => ['required', 'integer']
 
@@ -70,6 +73,7 @@ class FoodItemsController extends Controller
         $item = FoodItem ::find($id);
         $item->title = request('title');
         $item->description = request('description');
+        // $item->descritpion = request('size');
         $item->image_url = request('image_url');
         $item->price = request('price');
         $item->category_id= request('category_id');

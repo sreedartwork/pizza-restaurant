@@ -15,10 +15,10 @@
                                         <h4>Tomato Basil</h4> <br/>
                                         <span class="price">
                                             $7.75 -  Small 9"<br/>
-                                            <hr>
+                                            {{-- <hr>
                                             $12.75 - Medium 12"<br/>
                                             <hr>
-                                            $16.00 - Large 16"<br/>
+                                            $16.00 - Large 16"<br/> --}}
                                         </span> 
                                 </div>
                                 <div class="description">
@@ -33,10 +33,10 @@
                                         <h4>Sav-veg</h4>
                                         <span class="price">
                                             $9.75 -  Small 9"<br/>
-                                            <hr>
+                                            {{-- <hr>
                                             $17.25 - Medium 12"<br/>
                                             <hr>
-                                            $22.00 - Large 16"<br/>
+                                            $22.00 - Large 16"<br/> --}}
                                         </span> 
                                 </div>
                                 <div class="description">
@@ -51,10 +51,10 @@
                                         <h4>Cajun</h4>
                                         <span class="price">
                                             $10.50 -  Small 9"<br/>
-                                            <hr>
+                                            {{-- <hr>
                                             $17.75 - Medium 12"<br/>
                                             <hr>
-                                            $24.00 - Large 16"<br/>
+                                            $24.00 - Large 16"<br/> --}}
                                         </span> 
                                 </div>
                                 <div class="description">
@@ -69,10 +69,10 @@
                                         <h4>Chicken Florentine</h4>
                                         <span class="price">
                                             $10.50 -  Small 9"<br/>
-                                            <hr>
+                                            {{-- <hr>
                                             $17.75 - Medium 12"<br/>
                                             <hr>
-                                            $24.00 - Large 16"<br/>
+                                            $24.00 - Large 16"<br/> --}}
                                         </span>  
                                 </div>
                                 <div class="description">
