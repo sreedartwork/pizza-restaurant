@@ -65,6 +65,15 @@
                                                 @endforeach
                                             </select>
                                         </div>
+                                        {{-- <div class="form-group">
+                                            <label for="inputsize">Size</label>
+                                            <select name="inputsize" class="form-control" id="inputrole">
+                                                @foreach ($size as $sizes)
+                                                    <option value="{{$size->id}}"
+                                                    >{{$size->title}}</option>
+                                                @endforeach
+                                            </select>
+                                        </div> --}}
                                         <div class="form-group">
                                             <label for="inputimageurl">Image Url</label>
                                             <input id="inputimageurl" type="text" class="form-control form-control-lg @error('image_url') is-invalid @enderror" name="image_url" value="{{ old('image_url') }}" autocomplete="title" autofocus placeholder="Add the url to the Item image">
