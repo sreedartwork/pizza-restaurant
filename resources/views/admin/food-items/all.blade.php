@@ -39,6 +39,7 @@
                                             <tr>
                                                 <th scope="col">id</th>
                                                 <th scope="col">Title</th>
+                                                {{-- <th scope="col">Size</th> --}}
                                                 <th scope="col">Price</th>
                                                 <th scope="col">Date</th>
                                                 <th scope="col">Edit</th>
@@ -50,6 +51,7 @@
                                             @foreach ($items as $item)
                                                 <tr>
                                                     <th scope="row">{{$item->id}}</th>
+                                                    {{-- <td>{{$item->size}} </td> --}}
                                                     <td>{{$item->title}} </td>
                                                     <td>{{$item->price}} </td>
                                                     <td>{{date('m/d/Y', strtotime($item->updated_at))}}</td>
