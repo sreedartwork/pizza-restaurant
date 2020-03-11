@@ -1,6 +1,6 @@
 <div class="side-menu">
     <a href="/" class="logo">
-    <img src="/img/savage-pics/savage-logo.gif">
+    <img src="{{$settings["general"]->logo_image_url}}">
     </a>
    <div class="menu">
         <div class="menu-title">
@@ -25,26 +25,26 @@
         </ul>
       </div>
     <div class="social-icons">
-    <a href="#">
+    <a href="{{$settings["social"]->facebook_url}}" target="new">
         <i class="fa fa-facebook" aria-hidden="true"></i>
     </a>
-    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a href="{{$settings["social"]->twitter_url}}" target="new"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="{{$settings["social"]->instagram_url}}" target="new"><i class="fa fa-instagram" aria-hidden="true"></i></a>
     </div>
     <div class="location">
     <div class="address">
-        115 Laredo Dr,<br>
-        Avondale Estates, GA 30002
+        {{$settings["general"]->address_1}} {{$settings["general"]->address_2}}<br>
+        {{$settings["general"]->city}}, {{$settings["general"]->state}} {{$settings["general"]->zipcode}}
     </div>
     <div class="phone-number">
-        <a href="tel:(404) 299-5799">(404) 299-5799</a>
+        <a href="tel:{{$settings["general"]->phone_number}}">{{$settings["general"]->phone_number}}</a>
     </div>
-    <div class="address">
+    {{-- <div class="address">
         484 Moreland Ave NE,<br>
         Atlanta, GA 30307
     </div>
     <div class="phone-number">
         <a href="tel:(404)523-0500">(404) 523-0500</a>
-    </div>
+    </div> --}}
     </div>
 </div>

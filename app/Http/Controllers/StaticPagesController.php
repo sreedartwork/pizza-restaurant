@@ -6,9 +6,12 @@ use Illuminate\Http\Request;
 use App\Member;
 use App\Reservation;
 
+
 class StaticPagesController extends Controller
 {
     public function home(){
+        
+
         return view('home');
     }
     public function about(){
@@ -35,7 +38,7 @@ class StaticPagesController extends Controller
         $reservation->time = request('time');
         $reservation->save();
 
-       
+
         return redirect('/reservations/thank-you');
     }
     public function contact(){
