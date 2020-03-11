@@ -55,6 +55,20 @@
                                             $17.75 - Medium 12"<br/>
                                             <hr>
                                             $24.00 - Large 16"<br/> --}}
+
+                                            {{-- <div class="form-group">
+                                                <label for="sizeinput">Size</label>
+                                                <select name="sizeinput" class="form-control form-control-lg @error('size') is-invalid @enderror" id="sizeinput">
+                                                    <option value="small">Small 9" - $10.50</option>
+                                                    <option value="medium">Medium 12" - $17.75</option>
+                                                    <option value="3">Large 16" - $24.00</option>
+                                                </select>
+                                                @error('size')
+                                                    <span class="invalid-feedback" role="alert">
+                                                        <strong>{{ $message }}</strong>
+                                                    </span>
+                                                @enderror
+                                            </div> --}}
                                         </span> 
                                 </div>
                                 <div class="description">
