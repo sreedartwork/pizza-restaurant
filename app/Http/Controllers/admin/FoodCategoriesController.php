@@ -10,11 +10,11 @@ class FoodCategoriesController extends Controller
 {
     
     
-    
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
+    //THIS IS THE MIDDLE WARE THAT COMES WITH SETTING UP CONTROLLER
+    // public function __construct()
+    // {
+    //     $this->middleware('auth');
+    // }
     
     public function index(){
         $categories = FoodCategory::paginate(10);

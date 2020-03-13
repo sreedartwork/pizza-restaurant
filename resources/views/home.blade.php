@@ -1,6 +1,8 @@
 @extends('layouts.landing')
 
-
+@section('title')
+{{$settings["general"]->site_title}} America's Best Pizza
+@endsection
 
 
 
